@@ -18,3 +18,7 @@ Facilitate member enrollment, payment control, class reservations, inventory man
 Help gyms expand into new locations and increase their customer base.
 * IMPROVE CUSTOMER EXPERIENCE:
 Encourage physical activity and well-being in society.
+
+# CONTRIBUTORS:
+* Santiago Agustín Paniagua Bosquet: Backend programmer & systems analyst.
+* Gonzalo Joaquín Villalba: Backend programmer & systems analyst.
