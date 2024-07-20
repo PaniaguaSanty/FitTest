@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/gym_db
+    username: root
+    password: santyroot
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  output:
+    ansi:
+      enabled: always # permite ver el log como colores
+
+logging:
+  level:
+    root: info # permite ver los logs de consola
