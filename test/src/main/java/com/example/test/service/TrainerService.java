@@ -35,7 +35,6 @@ public class TrainerService implements CrudService<TrainerRequestDto, TrainerRes
         if (existingTrainer != null) {
             existingTrainer.setName(trainerRequestDto.getName());
             existingTrainer.setSurname(trainerRequestDto.getSurname());
-            existingTrainer.setClassSchedules(trainerRequestDto.getClassSchedules());
             existingTrainer.setEmail(trainerRequestDto.getEmail());
             existingTrainer.setPhone(trainerRequestDto.getPhone());
             existingTrainer.setAddress(trainerRequestDto.getAddress());

@@ -6,16 +6,18 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "clients", indexes = @Index(name = "idx_client_id", columnList = "client_id"))
-public class Client {
+@Table(name = "nutritionists")
+public class Nutritionist {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "client_id")
+    @Column(name = "nutritionist_id")
     private Long id;
 
     @Column(name = "name")
@@ -36,12 +38,12 @@ public class Client {
     @Column(name = "address")
     private String address;
 
-    @Column(name = "genre")
-    private String genre;
+    @Column(name = "hire_date")
+    private Date hireDate;
 
-    @Column(name = "initial_physical_status")
-    private String initialPhysicalStatus;
+    @ManyToOne
+    @JoinColumn(name = "gym_id")
+    private Gym gym;
 
-    @Column(name = "assigned_gym")
-    private String asignedGym;
+
 }

@@ -18,6 +18,7 @@ public class Gym {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "gym_id")
     private Long id;
 
     @Column(name = "name")
@@ -26,7 +27,6 @@ public class Gym {
     @OneToMany(mappedBy = "gym", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Trainer> trainers;
 
-/*
     @OneToMany(mappedBy = "gym", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Nutritionist> nutritionists;
 
@@ -37,5 +37,5 @@ public class Gym {
     private List<Inscription> inscriptions;
 
 
- */
+
 }
