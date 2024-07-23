@@ -195,3 +195,7 @@ v
 Ftest/src/main/java/com/example/test/controller/GManagerController.java,1\0\10a1537c3d11032fa88ef8517cd84f752d48cf25
 ƒ
 Stest/src/main/java/com/example/test/dto/request/InscriptionAndClientRequestDto.java,b\9\b93e9b1cfe1b6d568486312a56da6000863c09af
+m
+=test/src/main/java/com/example/test/config/SwaggerConfig.java,e\e\ee8f96151d036f5f7e4bf37c3a79a75e2968de54
+m
+=test/src/main/java/com/example/test/config/OpenApiConfig.java,9\0\903c5451fd882e2b0b3e239f52750e7767e99acc
